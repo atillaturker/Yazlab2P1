@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+https://drive.google.com/file/d/1XggX1_TpcWj9o9ZuuCYgPpZrgw5WLfVD/view?usp=drive_link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+KOCAELİÜNİVERSİTESİ
+ BİLGİSAYAR MÜHENDİSLİĞİBÖLÜMÜ
+ BLM306YAZILIMLAB.II
+ PROJE1
+ WebScraping Akademi Uygulaması
+ Proje İlan Tarihi: 21/02/2024
+ Proje Teslim Tarihi: 15/03/2024
+ Google Akademik gibi akademik arama motorları üzerinden web scraping (web kazıma)
+ yöntemiyle aratılan akademik yayınlara ait bilgilerin kaydedildiği bir veritabanıyla birlikte bu
+ bilgilerin webden aratılması, görüntülenmesi ve istenilen özelliklere göre sorguların
+ yapılmasına imkan sağlayacak bir web arayüzü geliştirmeniz beklenmektedir.
+ Amaç: Proje sayesinde web scraping ile bir web sayfasından bilgiye erişim sağlama;
+ MongoDB veritabanı ile Elasticsearch sorgu yapılarını kullanma ve web kodlama
+ becerilerinin geliştirilmesi amaçlanmaktadır.
+ Programlama Dili: Proje veritabanı ve sorguları için MongoDB ile Elasticsearch yapısı
+ kullanılmalıdır. Web arayüzü, istenilen bir web programlama dili kullanılarak
+ oluşturulacaktır..
+ Proje aşağıda detayları verilen 3 ana kısımlardan oluşmaktadır:
+ 1. Web Scraping:
+ ● En az bir akademik arama motorundan web scraping kullanılarak kullanıcının gireceği
+ anahtar kelimelere göre listelenmiş en az ilk 10 akademik yayının bilgileri, kendi
+ oluşturacağınız web sayfasında görüntülenmelidir. Kullanıcının arama yapmak için
+ kullanacağı anahtar kelimeler oluşturacağınız kendi web sayfanızdaki bir text alanı
+ üzerinden girilecektir.
+ ● Web scraping işlemi için siteye ait html bilgiler kullanılarak veya siteye request isteği
+ yapılarak istenen veriye erişilmelidir. (Erişilecek siteye yönelik hazır web API ler
+ kullanılmamalıdır.)
+ ● İstenen yayına ilişkin bilgiler doğrudan akademik arama motorunun sayfasından
+ çekilebileceği gibi arama motoru sayfasındaki link üzerinden yönlendirilecek diğer bir
+ web sayfasından da elde edilebilir. (İkincil sitelere geçiş yapılarak web scraping yapılması
+ durumunda artı puan verilecektir.)
+ ● İstenen her yayın için pdf dosyası mutlaka indirilmelidir. Daha sonra tercihe göre yayın
+ bilgileri ya web sayfası üzerinden ya da indirilmiş pdf dosyasının içeriğinden elde
+ edilebilir.
+2. Veritabanı:
+ ● Webscraping ile elde edilen veriler MongoDb kullanılarak veritabanına kaydedilecektir.
+ ● Veritabanında tutulması gereken bilgiler şunlardır:
+ ○ Yayınid,
+ ○ Yayınadı,
+ ○ Yazarların isimleri,
+ ○ Yayıntürü (araştırma makalesi, derleme, konferans, kitap vb.),
+ ○ Yayımlanma tarihi,
+ ○ Yayıncı adı (yayının yayımlandığı konferans ismi; dergi veya kitap yayınevi),
+ ○ Anahtar kelimeler (Arama motorunda aratılan),
+ ○ Anahtar kelimeler (Makaleye ait),
+ ○ Özet,
+ ○ Referanslar,
+ ○ Alıntı sayısı,
+ ○ Doinumarası (Eğer varsa),
+ ○ URLadresi
+ 3. Web Sayfası:
+ ● Erişilen yayınların bilgilerinin kullanıcıya gösterilmesi için bir web sayfası oluşturmanız
+ beklenmektedir.
+ ● Web sayfasında aratılacak yayınlar için bir text alanı oluşturulmalı ve bu text alanı
+ girilecek anahtar kelimeler üzerinden ilgili arama motorunun yayınları aratıp bilgilerini
+ web sayfasına getirmesi sağlanmalıdır.
+ ● Websayfası ilk açıldığında veritabanında bulunan tüm kayıtlar sayfaya getirilmelidir.
+ ● Listeleme işleminde yayınların isimleri sırasına uygun biçimde listelenmelidir. Listelenen
+ bir makale ismine tıklandığında o makaleye özgü bilgiler ayrı bir sayfada gösterilmelidir.
+ ● Web sayfasından herhangi bir çalışmaya yönelik dinamik arama işlemi yapılabilmelidir.
+ Ayrıca arama sırasında yazım yanlışı olması durumunda sistem düzeltilmiş öneride
+ bulunmalıdır. Örnek: deep learrning-- yazımı düzeltilmiş sonuçları görüyorsunuz: deep
+ learning şeklinde olmalıdır.
+ ● Web sayfasında dinamik filtreleme işlemi de ayrıca yer almalıdır. Filtreleme işlemi
+ veritabanında yer alan yayının tüm özellikleri için hem ayrı ayrı hem de birlikte
+ uygulanabilir olmalıdır.
+ ● Web sayfasında en son veya en önce yayımlanma tarihine göre sıralama yapılabilmeli
+ ayrıca yine atıf sayısına göre de en az veya en çok olacak şekilde sıralama
+ yapılabilmelidir.
+ÖDEVTESLİMİ
+ ● Proje raporu IEEE formatında (önceki yıllarda verilen formatta) 4 sayfa uzunluğunda
+ olmalıdır. Rapor; akış diyagramı veya yalancı kod içermeli, özet, giriş, yöntem,
+ deneysel sonuçlar, sonuç ve kaynakça bölümünden oluşmalıdır.
+ ● Dersin takibi projenin teslimi dâhil edestek.kocaeli.edu.tr sistemi üzerinden
+ yapılacaktır. edestek.kocaeli.edu.tr sitesinde belirtilen tarihten sonra teslim edilen
+ projeler kabul edilmeyecektir.
+ ● Proje ile ilgili sorular edestek.kocaeli.edu.tr sitesindeki forum üzerinden Arş. Gör.
+ Gamze Korkmaz Erdem veya Arş. Gör. Abdurrahman Gün’e sorulabilir. Proje
+ teslimine 2 gün kala sorulan hiçbir soruya cevap verilmeyecektir.
+ ● Sunumtarihleri daha sonra duyurulacaktır.
+ ● Sunumsırasında;
+ ○ Algoritma, geliştirdiğiniz kodun çeşitli kısımlarının ne amaçla yazıldığı ve
+ geliştirme ortamı hakkında sorular sorulabilir.
+ ○ Kullandığınız herhangi bir satır kodu açıklamanız istenebilir.
+ Projenin tanıtım toplantısı 23 Şubat 2024 Cuma günü saat 15:00'da bölüm
+ duyurularında ve e-destekte duyurulacak derslikte yapılacaktır.
+ Proje grupları en fazla 2 kişiden oluşmalıdır. Proje grup bilgileri e-destekte paylaşılacak
+ link üzerinden en geç 1 Mart Cuma gününe kadar girilmelidir. Bu tarihten sonra
+ gruplarda herhangi bir değişiklik yapılmayacaktır.
